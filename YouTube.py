@@ -13,5 +13,5 @@ for streams in video.streams :
     print(stream)
 
 video = video.streams.get_highest_resolution()
- 
+# Now download the the video , the path is  located on the folder where the script located
 video.download()
